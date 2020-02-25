@@ -13,6 +13,7 @@
 		AC04E5352404C9B5001826CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC04E5332404C9B5001826CF /* Main.storyboard */; };
 		AC04E5372404C9B6001826CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC04E5362404C9B6001826CF /* Assets.xcassets */; };
 		AC04E53A2404C9B6001826CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC04E5382404C9B6001826CF /* LaunchScreen.storyboard */; };
+		AC04E5432404CDBF001826CF /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = AC04E5422404CDBF001826CF /* bird.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC04E5362404C9B6001826CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC04E5392404C9B6001826CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC04E53B2404C9B6001826CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC04E5422404CDBF001826CF /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		AC04E5212404C9B5001826CF = {
 			isa = PBXGroup;
 			children = (
+				AC04E5412404CDB0001826CF /* images */,
 				AC04E52C2404C9B5001826CF /* TouchTracer */,
 				AC04E52B2404C9B5001826CF /* Products */,
 			);
@@ -65,6 +68,14 @@
 				AC04E53B2404C9B6001826CF /* Info.plist */,
 			);
 			path = TouchTracer;
+			sourceTree = "<group>";
+		};
+		AC04E5412404CDB0001826CF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC04E5422404CDBF001826CF /* bird.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04E5432404CDBF001826CF /* bird.png in Resources */,
 				AC04E53A2404C9B6001826CF /* LaunchScreen.storyboard in Resources */,
 				AC04E5372404C9B6001826CF /* Assets.xcassets in Resources */,
 				AC04E5352404C9B5001826CF /* Main.storyboard in Resources */,
